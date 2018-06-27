@@ -1,0 +1,52 @@
+* {
+	background: #709ce5
+}
+
+form {
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+}
+
+.container-1 {
+
+	flex-direction: column;
+}
+
+.container-2 {
+	flex-direction: column;
+}
+
+.container-3 {
+	flex-direction: column;
+}
+
+input {
+	border: 2px solid #fff;
+	width: 350px;
+	height: 30px;
+	color: white;
+	font: 16px Times New Roman, serif;
+	outline-color: black;
+}
+label{
+	padding-top: 30px;
+	display:block;
+	font: 16px Arial, san-sarif;
+}
+
+select {
+	border: 2px solid #fff;
+	width: 350px;
+	height: 30px;
+	color: white;
+	font-size: 16px;
+}
+
+textarea {
+	border: 2px solid #fff;
+	width: 350px;
+	height: 100px;
+	color: white;
+	font-size: 16px
+}
